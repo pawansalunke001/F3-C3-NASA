@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 5%;
+  }
+  
+  form {
+  
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  
+    cursor: pointer;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  #current-image-container {
+    padding: 2% 5%;
+  
+    background-color: black;
+  
+    color: white;
+  
+    width: fit-content;
+  }
+  
+  #current-image-container h4 {
+    font-size: 25px;
+  }
+  
+  #current-image-container img {
+    width: 500px;
+  
+    height: 300px;
+  }
+  
+  #current-image-container p {
+    width: 600px;
+  }
+  
+  #history {
+    margin: 20px 0;
+  }
+  
+  #search-history {
+    color: blue;
+  
+    text-decoration: underline;
+  }
